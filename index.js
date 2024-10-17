@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"http://localhost:3000",
+		origin:["https://gilded-kleicha-d08b79.netlify.app/" , "https://gilded-kleicha-d08b79.netlify.app"],
 		credentials:true,
 	})
 )
